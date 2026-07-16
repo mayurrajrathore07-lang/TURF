@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="navbar">
         <div class="container navbar-box">
@@ -26,7 +28,8 @@
         <div class="container hero-box">
             <div class="hero-text">
                 <h1 class="title">Premium Box Cricket Turf</h1>
-                <p class="text">Experience the best cricket turf in the city. Play day or night with professional lighting and high-quality artificial grass.</p>
+                <p class="text">Experience the best cricket turf in the city. Play day or night with professional
+                    lighting and high-quality artificial grass.</p>
                 <a href="#booking" class="button">Book Your Slot</a>
             </div>
             <div class="hero-image">
@@ -42,7 +45,9 @@
             </div>
             <div class="about-text">
                 <h2 class="title">About Turf Box</h2>
-                <p class="text">We provide a premium sporting experience for cricket enthusiasts. Our turfs are built with top-grade materials to ensure safety and performance. Whether it is a friendly match or a corporate tournament, Turf Box is the perfect place.</p>
+                <p class="text">We provide a premium sporting experience for cricket enthusiasts. Our turfs are built
+                    with top-grade materials to ensure safety and performance. Whether it is a friendly match or a
+                    corporate tournament, Turf Box is the perfect place.</p>
             </div>
         </div>
     </div>
@@ -147,12 +152,18 @@
         <div class="container">
             <h2 class="title center-title">Gallery</h2>
             <div class="gallery-box">
-                <img src="https://placehold.co/400x300/1a2b4c/ffffff?text=Gallery+1" alt="Gallery" class="image gallery-image">
-                <img src="https://placehold.co/400x300/2e7d32/ffffff?text=Gallery+2" alt="Gallery" class="image gallery-image">
-                <img src="https://placehold.co/400x300/1a2b4c/ffffff?text=Gallery+3" alt="Gallery" class="image gallery-image">
-                <img src="https://placehold.co/400x300/2e7d32/ffffff?text=Gallery+4" alt="Gallery" class="image gallery-image">
-                <img src="https://placehold.co/400x300/1a2b4c/ffffff?text=Gallery+5" alt="Gallery" class="image gallery-image">
-                <img src="https://placehold.co/400x300/2e7d32/ffffff?text=Gallery+6" alt="Gallery" class="image gallery-image">
+                <img src="https://placehold.co/400x300/1a2b4c/ffffff?text=Gallery+1" alt="Gallery"
+                    class="image gallery-image">
+                <img src="https://placehold.co/400x300/2e7d32/ffffff?text=Gallery+2" alt="Gallery"
+                    class="image gallery-image">
+                <img src="https://placehold.co/400x300/1a2b4c/ffffff?text=Gallery+3" alt="Gallery"
+                    class="image gallery-image">
+                <img src="https://placehold.co/400x300/2e7d32/ffffff?text=Gallery+4" alt="Gallery"
+                    class="image gallery-image">
+                <img src="https://placehold.co/400x300/1a2b4c/ffffff?text=Gallery+5" alt="Gallery"
+                    class="image gallery-image">
+                <img src="https://placehold.co/400x300/2e7d32/ffffff?text=Gallery+6" alt="Gallery"
+                    class="image gallery-image">
             </div>
         </div>
     </div>
@@ -162,11 +173,13 @@
             <h2 class="title center-title">Customer Reviews</h2>
             <div class="testimonials-box">
                 <div class="service-card">
-                    <p class="text">"Best turf in the city! The grass quality is amazing and lights are very bright."</p>
+                    <p class="text">"Best turf in the city! The grass quality is amazing and lights are very bright."
+                    </p>
                     <h3 class="title">- Rahul Sharma</h3>
                 </div>
                 <div class="service-card">
-                    <p class="text">"Very easy booking process and friendly staff. Highly recommended for weekend matches."</p>
+                    <p class="text">"Very easy booking process and friendly staff. Highly recommended for weekend
+                        matches."</p>
                     <h3 class="title">- Amit Patel</h3>
                 </div>
                 <div class="service-card">
@@ -188,13 +201,14 @@
             </div>
             <div class="contact-form" id="booking-form">
                 <h2 class="title">Book Your Turf</h2>
-                <input type="text" class="input" placeholder="Your Name">
-                <input type="text" class="input" placeholder="Phone Number">
-                <input type="date" class="input">
-                <select class="input">
-                    <option>Morning Slot</option>
-                    <option>Evening Slot</option>
-                    <option>Night Slot</option>
+                <input type="text" class="input" placeholder="Your Name" name="name" id="name" required>
+                <input type="text" class="input" placeholder="Phone Number" name="phone" id="phone" required>
+                <input type="date" class="input" name="date" id="date" required>
+                <select class="input" name="slot" id="slot" required>
+                    <option value="" disabled selected>Select a Slot</option>
+                    <option value="morning">Morning Slot</option>
+                    <option value="evening">Evening Slot</option>
+                    <option value="night">Night Slot</option>
                 </select>
                 <button class="button">Submit Booking</button>
             </div>
@@ -217,4 +231,5 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
 </body>
+
 </html>
