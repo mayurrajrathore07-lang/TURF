@@ -1,10 +1,6 @@
 import React from 'react';
 
-// WhyChooseUs Component
-// Highlights the key advantages of Turf Box using a clean map loop to make the code neat.
 function WhyChooseUs() {
-  // We define an array of objects to store the service details.
-  // This is a great React practice because it keeps the code DRY (Don't Repeat Yourself).
   const features = [
     {
       id: 1,
@@ -31,7 +27,6 @@ function WhyChooseUs() {
       <div className="container">
         <h2 className="title center-title">Why Choose Us</h2>
         <div className="services-box">
-          {/* We loop over the features array using the javascript .map() function */}
           {features.map((feature) => (
             <div key={feature.id} className="service-card">
               <img src={feature.image} alt={feature.title} className="image" />

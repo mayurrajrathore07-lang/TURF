@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Reviews / Testimonials Component
-// Shows feedback left by other box cricket players.
 function Reviews() {
   const reviews = [
     {

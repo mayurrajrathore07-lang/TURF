@@ -1,17 +1,13 @@
 import React from 'react';
 
-// About Section Component
-// Details the background and history of the Turf Box cricket facilities.
 function About() {
   return (
     <section className="about" id="about">
       <div className="container about-box">
-        {/* About image representation */}
         <div className="about-image">
           <img src="/cric.png" alt="About Turf Box" className="image" />
         </div>
         
-        {/* Description text about features and security */}
         <div className="about-text">
           <h2 className="title">About Turf Box</h2>
           <p className="text">

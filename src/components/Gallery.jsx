@@ -1,9 +1,6 @@
 import React from 'react';
 
-// Gallery Component
-// Visual images representation of the cricket arena.
 function Gallery() {
-  // Creating an array of 6 elements to match the original layout
   const images = Array.from({ length: 6 }, (_, index) => ({
     id: index + 1,
     src: '/cric.png',

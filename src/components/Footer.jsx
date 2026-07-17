@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Footer Component
-// Houses basic brand tags and scroll links.
 function Footer() {
   return (
     <footer className="footer">
@@ -9,7 +7,6 @@ function Footer() {
         <div className="logo">Turf Box</div>
         <p className="text">Premium Box Cricket Experience</p>
         
-        {/* Quick footer navigation links */}
         <div className="footer-links">
           <a href="#home">Home</a>
           <a href="#about">About</a>

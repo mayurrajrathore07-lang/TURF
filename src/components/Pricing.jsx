@@ -1,7 +1,5 @@
 import React from 'react';
 
-// Pricing Section Component
-// Displays pricing models. Includes interactive capability: selecting a package pre-selects the dropdown in the Booking Form.
 function Pricing({ onSelectSlot }) {
   const plans = [
     {
@@ -16,7 +14,7 @@ function Pricing({ onSelectSlot }) {
       title: 'Evening Slot',
       price: 'Rs 1200 / Hour',
       time: '4:00 PM to 12:00 AM',
-      isActive: true, // Highlights the popular evening slot
+      isActive: true,
     },
     {
       id: 'night',
@@ -28,12 +26,10 @@ function Pricing({ onSelectSlot }) {
   ];
 
   const handleBookClick = (slotId) => {
-    // Pass selection up to App component
     if (onSelectSlot) {
       onSelectSlot(slotId);
     }
     
-    // Smooth scroll to the booking form
     const bookingForm = document.getElementById('booking-form');
     if (bookingForm) {
       bookingForm.scrollIntoView({ behavior: 'smooth' });
@@ -58,7 +54,7 @@ function Pricing({ onSelectSlot }) {
               <button 
                 className={`button ${plan.isActive ? 'button-white' : ''}`}
                 onClick={(e) => {
-                  e.stopPropagation(); // Avoid double execution if card itself is clicked
+                  e.stopPropagation();
                   handleBookClick(plan.id);
                 }}
               >

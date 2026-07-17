@@ -1,7 +1,5 @@
 import React from 'react';
 
-// BookingProcess Component
-// Explains the 3-step pipeline to complete a booking.
 function BookingProcess() {
   const steps = [
     {
