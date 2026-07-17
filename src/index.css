@@ -7,7 +7,7 @@
 
 body {
     background-color: #ffffff;
-    color: #1a2b4c;
+    color: #050505;
     line-height: 1.6;
 }
 
@@ -22,6 +22,11 @@ body {
     text-align: center;
     margin-bottom: 40px;
     font-size: 32px;
+}
+
+.white-text {
+    color: #f8fcf8;
+
 }
 
 .title {
@@ -126,7 +131,7 @@ body {
 }
 
 .hero {
-    background-color: #1a2b4c;
+    background-color: #070707;
     padding: 80px 0;
 }
 
@@ -187,9 +192,10 @@ body {
     font-size: 36px;
 }
 
+
 .services {
     padding: 80px 0;
-    background-color: #ffffff;
+    background-color: #050505;
 }
 
 .services-box {
@@ -204,7 +210,6 @@ body {
 }
 
 .services-box .image {
-    border-radius: 50%;
     margin: 0 auto 20px auto;
 }
 
@@ -502,6 +507,7 @@ body {
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -578,6 +584,7 @@ body {
 }
 
 @media (max-width: 600px) {
+
     .facility-card,
     .gallery-image {
         width: 100%;

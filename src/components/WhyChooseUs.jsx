@@ -25,7 +25,7 @@ function WhyChooseUs() {
   return (
     <section className="services">
       <div className="container">
-        <h2 className="title center-title">Why Choose Us</h2>
+        <h2 className="title center-title white-text">Why Choose Us</h2>
         <div className="services-box">
           {features.map((feature) => (
             <div key={feature.id} className="service-card">

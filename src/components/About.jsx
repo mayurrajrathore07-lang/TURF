@@ -7,7 +7,7 @@ function About() {
         <div className="about-image">
           <img src="/cric.png" alt="About Turf Box" className="image" />
         </div>
-        
+
         <div className="about-text">
           <h2 className="title">About Turf Box</h2>
           <p className="text">
