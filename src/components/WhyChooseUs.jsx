@@ -4,19 +4,19 @@ function WhyChooseUs() {
   const features = [
     {
       id: 1,
-      image: '/crica.png',
+      image: '/eee.jpg ',
       title: '24/7 Access',
       description: 'Play anytime you want. We are open 24 hours a day for everyone.'
     },
     {
       id: 2,
-      image: '/crica.png',
+      image: '/light.webp',
       title: 'Pro Lighting',
       description: 'High quality floodlights that provide daylight visibility at night.'
     },
     {
       id: 3,
-      image: '/crica.png',
+      image: '/pitch.jpg',
       title: 'Best Grass',
       description: 'FIFA certified artificial turf for best grip, bounce and safety.'
     }

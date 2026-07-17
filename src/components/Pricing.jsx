@@ -5,21 +5,21 @@ function Pricing({ onSelectSlot }) {
     {
       id: 'morning',
       title: 'Morning Slot',
-      price: 'Rs 800 / Hour',
+      price: 'Rs 6000 / Hour',
       time: '6:00 AM to 4:00 PM',
       isActive: false,
     },
     {
       id: 'evening',
       title: 'Evening Slot',
-      price: 'Rs 1200 / Hour',
+      price: 'Rs 12000 / Hour',
       time: '4:00 PM to 12:00 AM',
       isActive: true,
     },
     {
       id: 'night',
       title: 'Night Slot',
-      price: 'Rs 1000 / Hour',
+      price: 'Rs 10000 / Hour',
       time: '12:00 AM to 6:00 AM',
       isActive: false,
     }
@@ -29,7 +29,7 @@ function Pricing({ onSelectSlot }) {
     if (onSelectSlot) {
       onSelectSlot(slotId);
     }
-    
+
     const bookingForm = document.getElementById('booking-form');
     if (bookingForm) {
       bookingForm.scrollIntoView({ behavior: 'smooth' });
@@ -50,8 +50,8 @@ function Pricing({ onSelectSlot }) {
               <h3 className="title">{plan.title}</h3>
               <h2 className="title price-title">{plan.price}</h2>
               <p className="text">{plan.time}</p>
-              
-              <button 
+
+              <button
                 className={`button ${plan.isActive ? 'button-white' : ''}`}
                 onClick={(e) => {
                   e.stopPropagation();
