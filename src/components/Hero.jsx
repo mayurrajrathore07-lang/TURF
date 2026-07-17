@@ -1,11 +1,18 @@
 import React from 'react';
+import BlurText from './BlurText';
 
 function Hero() {
   return (
     <section className="hero" id="home">
       <div className="container hero-box">
         <div className="hero-text">
-          <h1 className="title">Premium Box Cricket Turf</h1>
+          <BlurText 
+            text="Premium Box Cricket Turf" 
+            className="title" 
+            delay={100} 
+            animateBy="words" 
+            direction="top" 
+          />
           <p className="text">
             Experience the best cricket turf in the city. Play day or night with
             professional lighting and high-quality artificial grass.
@@ -22,3 +29,4 @@ function Hero() {
 }
 
 export default Hero;
+

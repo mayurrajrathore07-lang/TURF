@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/mayurrajrathore07-lang/TURF#readme",
   "dependencies": {
+    "motion": "^12.42.2",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },

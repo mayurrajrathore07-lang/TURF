@@ -5,13 +5,13 @@ function Facilities() {
     { id: 1, image: '/cricd.jpg', name: 'Team Dugouts' },
     { id: 2, image: '/crict.jpg', name: 'Clean Washrooms' },
     { id: 3, image: '/cricp.jpg', name: 'Free Parking' },
-    { id: 4, image: '/crick.jpg', name: 'Sports Equipment' }
+    { id: 4, image: '/cricd.jpg', name: 'Sports Equipment' }
   ];
 
   return (
     <section className="facilities" id="facilities">
       <div className="container">
-        <h2 className="title center-title">Turf Facilities</h2>
+        <h2 className="title center-title" style={{ fontSize: '70px' }}>Turf Facilities</h2>
         <div className="facilities-box">
           {facilityItems.map((item) => (
             <div key={item.id} className="service-card facility-card">
