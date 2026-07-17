@@ -11,7 +11,7 @@ function Facilities() {
   return (
     <section className="facilities" id="facilities">
       <div className="container">
-        <h2 className="title center-title" style={{ fontSize: '70px' }}>Turf Facilities</h2>
+        <h2 className="title center-title" style={{ fontSize: '40px', }}>Turf Facilities</h2>
         <div className="facilities-box">
           {facilityItems.map((item) => (
             <div key={item.id} className="service-card facility-card">

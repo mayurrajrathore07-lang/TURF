@@ -242,10 +242,12 @@ body {
 
 .pricing {
     padding: 80px 0;
-    background-color: #ffffff;
+    background-color: #070707;
+
 }
 
 .pricing-box {
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
@@ -318,7 +320,8 @@ body {
 
 .gallery {
     padding: 80px 0;
-    background-color: #ffffff;
+    background-color: #6c839b;
+
 }
 
 .gallery-box {

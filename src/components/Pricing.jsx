@@ -39,14 +39,14 @@ function Pricing({ onSelectSlot }) {
   return (
     <section className="pricing" id="pricing">
       <div className="container">
-        <h2 className="title center-title">Pricing</h2>
+        <h2 className="title center-title" style={{ color: "white" }}>Pricing</h2>
         <div className="pricing-box">
           {plans.map((plan) => (
             <div
               key={plan.id}
               className={`service-card pricing-card ${plan.isActive ? 'pricing-card-active' : ''}`}
               onClick={() => handleBookClick(plan.id)}
-            >
+            >0
               <h3 className="title">{plan.title}</h3>
               <h2 className="title price-title">{plan.price}</h2>
               <p className="text">{plan.time}</p>
