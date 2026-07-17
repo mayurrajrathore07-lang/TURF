@@ -20,6 +20,7 @@ function App() {
       name: 'Rohan Sharma',
       phone: '9876543210',
       date: '2026-07-20',
+
       slot: 'evening'
     },
     {
