@@ -250,6 +250,13 @@ body {
     text-align: center;
     background-color: #f5f5f5;
     padding: 40px 30px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .pricing-card .title {
@@ -268,6 +275,10 @@ body {
 
 .pricing-card-active .title,
 .pricing-card-active .text {
+    color: #ffffff;
+}
+
+.pricing-card-active .price-title {
     color: #ffffff;
 }
 
@@ -425,6 +436,79 @@ body {
     margin-bottom: 0;
 }
 
+/* Dynamic Interactive Styles */
+.success-message {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c8e6c9;
+    text-align: center;
+    font-weight: bold;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.booking-list-container {
+    margin-top: 30px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    color: #1a2b4c;
+}
+
+.booking-list-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.booking-item {
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-left: 4px solid #2e7d32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.booking-item-details span {
+    display: block;
+}
+
+.booking-item-name {
+    font-weight: bold;
+    color: #1a2b4c;
+}
+
+.booking-item-meta {
+    font-size: 12px;
+    color: #666;
+}
+
+.booking-item-slot {
+    background-color: #2e7d32;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media (max-width: 900px) {
     .navbar-box {
         flex-direction: row;
@@ -495,7 +579,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
     .facility-card,
     .gallery-image {
         width: 100%;
@@ -519,6 +602,5 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         position: relative;
-
     }
 }
