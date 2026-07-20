@@ -45,6 +45,7 @@ function Hero() {
             professional lighting and high-quality artificial grass.
           </p>
           <a href="#booking-form" className="button" style={{ pointerEvents: 'auto' }}>Book Your Slot</a>
+          <a href="booking-form" className="button" style={{ pointerEvents: 'auto' }}></a>
         </div>
 
         <div className="hero-image" style={{ pointerEvents: 'none' }}>

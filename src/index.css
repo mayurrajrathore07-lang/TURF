@@ -524,6 +524,7 @@ body {
         padding: 20px 0;
     }
 
+
     .navbar .menu {
         margin: 20px 0;
     }
@@ -594,8 +595,9 @@ body {
     }
 
     .navbar .menu {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
+        gap: 30px;
     }
 
     .navbar .menu a {
@@ -608,8 +610,10 @@ body {
 
     .navbar-box {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         position: relative;
     }
+
+
 }
