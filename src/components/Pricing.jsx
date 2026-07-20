@@ -1,5 +1,5 @@
 import React from 'react';
-import CursorGrid from './CursorGrid';
+
 
 function Pricing({ onSelectSlot }) {
   const plans = [
@@ -49,7 +49,7 @@ function Pricing({ onSelectSlot }) {
           holdTime={400}
           fadeDuration={800}
           lineWidth={1.2}
-          maxOpacity={1}
+          maxOpacity={1} c
           fillOpacity={0}
           gridOpacity={0.05}
           cellRadius={0}

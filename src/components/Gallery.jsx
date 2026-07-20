@@ -9,6 +9,7 @@ function Gallery() {
 
   return (
     <section className="gallery">
+
       <div className="container">
         <h2 className="title center-title">Gallery</h2>
         <div className="gallery-box">
