@@ -1,4 +1,5 @@
 import React from 'react';
+import CursorGrid from './CursorGrid';
 
 function WhyChooseUs() {
   const features = [
@@ -23,9 +24,7 @@ function WhyChooseUs() {
   ];
 
   return (
-    <section className="services">
-
-      ection className="hero" id="home" style={{ position: 'relative', overflow: 'hidden' }}>
+    <section className="services" style={{ position: 'relative', overflow: 'hidden' }}>
       <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 1 }}>
         <CursorGrid
           cellSize={70}
@@ -44,10 +43,9 @@ function WhyChooseUs() {
         />
       </div>
 
-
-      <div className="container">
+      <div className="container" style={{ position: 'relative', zIndex: 2, pointerEvents: 'none' }}>
         <h2 className="title center-title white-text">Why Choose Us</h2>
-        <div className="services-box">
+        <div className="services-box" style={{ pointerEvents: 'auto' }}>
           {features.map((feature) => (
             <div key={feature.id} className="service-card">
               <img src={feature.image} alt={feature.title} className="image" />
