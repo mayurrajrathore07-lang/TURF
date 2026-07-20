@@ -5,7 +5,7 @@ function WhyChooseUs() {
   const features = [
     {
       id: 1,
-      image: '/eee.jpg ',
+      image: '/eee.jpg',
       title: '24/7 Access',
       description: 'Play anytime you want. We are open 24 hours a day for everyone.'
     },
