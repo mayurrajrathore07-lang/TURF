@@ -69,9 +69,9 @@ function BookingForm({ selectedSlot, onSlotChange, onAddBooking, bookings }) {
         <div className="contact-info">
           <h2 className="title">Contact Us</h2>
           <p className="text">Have questions? Reach out to us.</p>
-          <p className="text"><strong>Phone:</strong> +91 9876543210</p>
-          <p className="text"><strong>Email:</strong> info@turfbox.com</p>
-          <p className="text"><strong>Address:</strong> 123 Sports Avenue, Cricket City</p>
+          <p className="text"><strong>Phone:</strong>1234567890</p>
+          <p className="text"><strong>Email:</strong> ......@turfbox.com</p>
+          <p className="text"><strong>Address:</strong> 123 Sports Arena, Cricket City</p>
         </div>
 
         <div className="contact-form" id="booking-form">
