@@ -1,4 +1,6 @@
 import React from 'react';
+import CursorGrid from './CursorGrid';
+
 
 
 function Pricing({ onSelectSlot }) {
