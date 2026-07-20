@@ -138,6 +138,7 @@ function BookingForm({ selectedSlot, onSlotChange, onAddBooking, bookings }) {
               <option value="morning">Morning Slot (6:00 AM - 4:00 PM)</option>
               <option value="evening">Evening Slot (4:00 PM - 12:00 AM)</option>
               <option value="night">Night Slot (12:00 AM - 6:00 AM)</option>
+              <option value="night"> night slot ( 12:00-6:00 AM)</option>
             </select>
 
             <button type="submit" className="button">Submit Booking</button>
